@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Project-specific
+poker-chesscom-python-starter.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local run outputs
+history/*.json
+history/*.csv
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local run outputs
+history/*.json
+history/*.csv

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poker-chesscom-py"
+version = "0.1.0"
+description = "Poker trainer + bot (console MVP)"
+authors = [{name="You"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+web = ["fastapi>=0.110", "uvicorn>=0.27"]
