@@ -60,20 +60,5 @@ pytest -q
 - [ ] Add FastAPI server for “online vs bot” (`/api/new_game`, `/api/act`) + simple web UI.
 - [ ] Stronger bot (preflop ranges, pot‑odds, bluffing freq).
 - [ ] Dataviz for strategy drills (EV by hand class, board texture).
-- [ ] Persistence & ratings.
-
-## License
-MIT.
-
-- Rich-colored suits (♥♦ red), bold winners, clean table layout
-- Rotating Dealer/SB/BB, correct action order
-- Side-pot tracking & display (who contests which pot)
-- Hand history to `/history` (JSON + CSV) + replay with `python -m poker.replay path.json`
-- Session stats: VPIP/PFR, showdown wins, ASCII profit graph, top pots
-- Cheat: type `ODDS` during hands
-- Modes: Hold’em, PLO, Custom; plus Sit-n-Go tournament
-
-## Status & Known Issues
-- **Cheats (`odds`, `suggest`)**: currently not working reliably across all hands/prompts. Work in progress.
-- **Planned**: add a **poker calculator** (range/equity helper) and wire it into `odds`/`suggest`.
+- [ ] Persistence & ratings.nto `odds`/`suggest`.
 
