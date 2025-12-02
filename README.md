@@ -12,7 +12,7 @@ A full Monte Carlo–driven poker simulation engine that models decision logic, 
 ## VALUE PROPOSITION
 A research-grade poker engine designed for simulation, experimentation, and decision analysis. pokerlab transforms probabilistic gaming into a quant-ready testing environment.
 ## ARCHITECTURE DIAGRAM
-![PokerLab Architecture](https://raw.githubusercontent.com/smdiallo_ncstate/pokerlab/main/diagrams/pokerlab_abm.png)
+![PokerLab Architecture](https://raw.githubusercontent.com/SaidouDialloNCState/pokerlab/main/diagrams/pokerlab_abm.png)
 ## QUICKSTART (GIT BASH)
 ### STEP 1 —  Clone the repository
 git clone https://github.com/smdiallo_ncstate/pokerlab.git
